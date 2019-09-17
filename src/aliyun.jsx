@@ -250,6 +250,6 @@ export default class ALiYun extends React.PureComponent {
     const { className } = that.props;
     // const {  } = that.state;
 
-    return <div id={that.id} className={className} />;
+    return <div id={that.id} className={`nc-container ${className}`} />;
   }
 }
