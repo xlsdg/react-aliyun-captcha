@@ -1,0 +1,60 @@
+{
+  "author": "xLsDg <xlsdg@qq.com> (https://xlsdg.org/)",
+  "browser": "dist/aliyun.umd.min.js",
+  "bugs": {
+    "url": "https://github.com/xlsdg/react-aliyun-captcha/issues"
+  },
+  "description": "A ALiYun Captcha component for React",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "babel-eslint": "^10.0.3",
+    "bili": "^4.8.1",
+    "eslint": "^6.4.0",
+    "eslint-config-alloy": "^3.0.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "husky": "^3.0.5",
+    "lint-staged": "^9.2.5",
+    "prettier": "^1.18.2"
+  },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "homepage": "https://github.com/xlsdg/react-aliyun-captcha",
+  "jsdelivr": "dist/aliyun.min.js",
+  "keywords": [
+    "react",
+    "aliyun",
+    "react-aliyun-captcha",
+    "library"
+  ],
+  "license": "MIT",
+  "main": "dist/aliyun.min.js",
+  "module": "dist/aliyun.esm.min.js",
+  "name": "react-aliyun-captcha",
+  "peerDependencies": {
+    "react": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xlsdg/react-aliyun-captcha.git"
+  },
+  "scripts": {
+    "build": "bili",
+    "release:major": "npm version major && npm publish",
+    "release:minor": "npm version minor && npm publish",
+    "release:patch": "npm version patch && npm publish"
+  },
+  "source": "src/aliyun.jsx",
+  "unpkg": "dist/aliyun.min.js",
+  "version": "1.0.0"
+}
